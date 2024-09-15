@@ -27,8 +27,12 @@ Los datos del Instituto Geográfico Nacional han sido descargados desde el Centr
   https://centrodedescargas.cnig.es/CentroDescargas/index.jsp
 
 Por otro lado, la red neuronal mencionada, Myria3D, ha sido desarrollada por el Institut national 
-de l’information géographique et forestière, facilitando el código completo en el siguiente repositorio:
+de l’information géographique et forestière. Se facilita el acceso a su repositorio:
   https://github.com/IGNF/myria3d
+
+Para el desarrollo de este proyecto se ha utilizado la versión estable apartada por sus desarrolladores.
+Se puede acceder a partir del siguiente enlace:
+   https://github.com/IGNF/myria3d/releases/tag/prod-release-tag
 
 A su vez, este organismo facilita documentación online sobre su funcionamiento:
   https://ignf.github.io/myria3d/index.html#
