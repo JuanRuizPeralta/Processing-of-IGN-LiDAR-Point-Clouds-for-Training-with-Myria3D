@@ -1,0 +1,49 @@
+# @package _global_
+
+# Nota : may need to call
+#   python myria3d/pctl/dataset/toy_dataset.py
+# to create a toy dataset before running this.
+
+defaults:
+  - override /model: pyg_randla_net_model.yaml
+  - override /datamodule/transforms/augmentations: light.yaml
+
+
+logger:
+  comet:
+    experiment_name: "RandLaNetDebug"
+    disabled: true
+
+trainer:
+  limit_train_batches: 110
+  limit_val_batches: 110
+  limit_test_batches: 110
+  min_epochs: 60
+  max_epochs: 400
+  num_sanity_val_steps: 2
+  auto_lr_find: true
+
+datamodule:
+
+  num_workers: 1
+  
+  tile_width: 3000
+  subtile_width: 100
+  subtile_shape: square
+  subtile_overlap_train: 0
+  subtile_overlap_predict: ${predict.subtile_overlap}
+  batch_size: 10
+
+
+
+model:
+  lr: 0.002
+  criterion:
+    label_smoothing: 0
+
+predict:
+  gpus: 0
+  subtile_overlap: 0
+  interpolator:
+    interpolation_k: 10
+
