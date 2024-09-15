@@ -5,6 +5,7 @@ Se explica el funcionamiento completo en el documento "Memoria_Ruiz_Peralta_Juan
 
 Para ello, los 4 scripts destacados a continuación satisfacen el manejo de los datos previo a 
 su uso en Myria3D:
+
   1.Laz_to_Las.py 
   
   2.Version_las_14.py 
