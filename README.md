@@ -6,15 +6,15 @@ Se explica el funcionamiento completo en el documento "Memoria_Ruiz_Peralta_Juan
 Para ello, los 4 scripts destacados a continuación satisfacen el manejo de los datos previo a 
 su uso en Myria3D:
 
-  1.Laz_to_Las.py 
-  2.Version_las_14.py 
-  3.Combine_las_files.py 
-  4.List_files_in_directory.py 
+  1.Laz_to_Las.py
+  2.Version_las_14.py
+  3.Combine_las_files.py
+  4.List_files_in_directory.py
 
 Por otro lado, se han elaborado 2 scripts para la evaluación de los resultados de las 
 predicciones inferidas en las nubes de puntos. 
 
-  5.Treatment_Inference.py 
+  5.Treatment_Inference.py
   6.Statistics.py
 
 
