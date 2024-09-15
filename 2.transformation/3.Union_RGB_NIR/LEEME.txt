@@ -1,0 +1,1 @@
+Ubicación con resultados de combinación RGB e Infrarrojo al aplicar "3.Combine_las_files.py"
